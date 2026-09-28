@@ -1,0 +1,32 @@
+{
+  "name": "genpark-agent-self-consistency-consensus-scorer-skill",
+  "version": "1.0.0",
+  "description": "Multi-path chain-of-thought self-consistency consensus scorer and majority voter aggregating divergent LLM reasoning trajectories into high-confidence deterministic outputs.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "self-consistency",
+    "chain-of-thought",
+    "majority-voting",
+    "reasoning",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "evaluate_consensus_vote",
+      "description": "Normalize trajectory answers and perform majority consensus voting."
+    },
+    {
+      "name": "calculate_trajectory_entropy",
+      "description": "Compute Shannon cognitive entropy across reasoning distribution."
+    },
+    {
+      "name": "cluster_reasoning_paths",
+      "description": "Cluster trajectories by step similarity and identify outliers."
+    },
+    {
+      "name": "run_consensus_benchmark",
+      "description": "Run self-consistency benchmark across divergent reasoning outputs."
+    }
+  ]
+}
